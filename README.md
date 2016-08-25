@@ -11,7 +11,9 @@ After compiling the project simply upload all the contents to the server.
 The index.html links the JS files to the /js_bin as defined in system.config.js.Hence there is no need to install node.js into the server machine (during developement node.js is mandatory). 
 
 This approach is for developers who don't want the lite-server as default and want WAMP,XAMPP or any APACHE machine to serve the pages without using angular-cli or other interfaces to compile and run it on lite-server.
+
 #Requirements(During developement on Localhost):
 1.NPM: A javascript package manager
 2.NODE.JS
+
 -Diganta Datta
