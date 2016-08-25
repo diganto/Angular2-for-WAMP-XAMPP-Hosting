@@ -15,7 +15,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>Tritan Technologies </h1><h3><li>TypeScript is now compiled to JS and stored in <b>/js_bin</b></li><br><li>So for UI coding(TypeScript) the <b>/app</b> folder will only matter</li><br><li>However for any JS config changes(change of default directory locations or mappings) look into <b>systemjs.config.js</b></li><br><li>And for TS compiler adjustments change <b>tsconfig.json</b></li><br><br></h3><h2>-Diganta Datta</h2>'
+            template: "<h1>Tritan Technologies </h1>\n  <h3>\n  <li>TypeScript is now compiled to JS and stored in <b>/js_bin</b></li>\n  <br><li>So for UI coding(TypeScript) the <b>/app</b> folder will only matter</li>\n  <br><li>However for any JS config changes(change of default directory locations or mappings) look into <b>systemjs.config.js</b></li>\n  <br><li>And for TS compiler adjustments change <b>tsconfig.json</b></li>\n  <br><br><li>Use sudo npm start to start compilation and execution at localhost:3000 </li></h3>\n  <my-demo></my-demo>\n  <h2>-Diganto Datta</h2>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -23,5 +23,8 @@ var AppComponent = (function () {
 }());
 exports.AppComponent = AppComponent;
 /*Created by Diganta -Tritan Technologies*/
+/*Component is an metadata directive
+The component acts as an core header file for the entire framework
+*/
 /*So for UI coding the /app folder will only matter</br> However for any JS config changes look into systemjs.config.js</br>And for TS compiler adjustments change tsconfig.json'*/
 //# sourceMappingURL=app.component.js.map

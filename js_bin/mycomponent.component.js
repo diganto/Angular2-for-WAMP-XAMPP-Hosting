@@ -8,25 +8,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var platform_browser_1 = require('@angular/platform-browser');
-var app_component_1 = require('./app.component');
-var my_demo_component_1 = require('./my-demo.component');
-var AppModule = (function () {
-    function AppModule() {
+var core_1 = require('angular2/core');
+var MyComponentComponent = (function () {
+    function MyComponentComponent() {
     }
-    AppModule = __decorate([
-        core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
-            declarations: [
-                app_component_1.AppComponent,
-                my_demo_component_1.MyDemoComponent
-            ],
-            bootstrap: [app_component_1.AppComponent]
+    MyComponentComponent = __decorate([
+        core_1.Component({
+            selector: 'my-component',
+            template: "This is my Component"
         }), 
         __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
+    ], MyComponentComponent);
+    return MyComponentComponent;
 }());
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+exports.MyComponentComponent = MyComponentComponent;
+//# sourceMappingURL=mycomponent.component.js.map
